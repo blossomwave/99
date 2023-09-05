@@ -12,9 +12,7 @@ export default function multiplicationPages() {
             }
             cell.innerText=row
             rowDiv.appendChild(cell)
-            document.querySelector('main').appendChild(rowDiv)
-
         }
-
+        document.querySelector('main').appendChild(rowDiv)
     }
 }
